@@ -1,0 +1,450 @@
+*{margin: 0;padding: 0;}
+.lundiv{
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+.lundiv img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.lundiv span{
+	position: absolute;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border: 2px solid white;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 50px;
+	font-size: 35px;
+	color: white;
+	top: 200px;
+	display: none;
+}
+.lundiv span:nth-of-type(1){
+	position: absolute;
+	left: 0;
+}
+.lundiv span:nth-of-type(2){
+	right: 0;
+}
+.lundiv .lg{
+	position: absolute;
+	top: 15px;
+	left: 30px;
+	color: white;
+}
+.lundiv .lg p:nth-of-type(1){
+	font-size: 20px;
+	font-weight: bold;
+}
+.lundiv .lg p:nth-of-type(2){
+	font-size: 12px;
+}
+.lundiv .ulbox1{
+	position: absolute;
+	top: 25px;
+	left: 10%;
+	color: white;
+	font-size: 14px;
+}
+.lundiv .ulbox1 li{
+	list-style: none;
+	float: left;
+	width: 75px;
+	text-align: center;
+}
+.lundiv .ulbox1 .ulmin{
+	width: 70px;
+	height: 65px;
+	background: #000000;
+	border-radius: 10px;
+	margin-top: 10px;
+	display: none;
+}
+.lundiv .ulbox1 .ulmin li{
+	height: 28px;
+	
+	line-height: 26px;
+	font-size: 12px;
+}
+.lundiv .ulbox1 li:nth-of-type(3) .ulmin{
+	height: 140px;
+}
+.lundiv .ulbox1 li:nth-of-type(5) .ulmin{
+	height: 85px;
+}
+.ulbox2{
+	position: absolute;
+	color: white;
+	font-size: 13px;
+	top: 25px;
+	right: 2%;
+}
+.ulbox2 li{
+	list-style: none;
+	float: left;
+	width: 60px;
+	height: 30px;
+	line-height: 30px;
+}
+.ulbox2 li:nth-of-type(4){
+	border: 1px solid white;
+	border-radius: 5px;
+	text-align: center;
+	
+}
+.lundiv .sskul{
+	position: absolute;
+	background: white;
+	width: 48%;
+	top: 230px;
+	left: 26%;
+	height: 54px;
+}
+.lundiv .sskul li{
+	float: left;
+	list-style: none;
+	font-size: 14px;
+	line-height: 54px;
+}
+.lundiv .sskul li:nth-of-type(1){
+	width:15%;
+	height: 54px;
+	text-align: center;
+}
+.lundiv .sskul li:nth-of-type(2){
+	width: 80%;
+	height: 54px;
+}
+.lundiv .sskul li:nth-of-type(2) input{
+	width: 100%;
+	height: 30px;
+	border: none;
+	border-left: 1px solid lightgrey;
+	padding-left: 15px;
+}
+.lundiv .sskul img{
+	width: 54px;
+	height: 54px;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.hbdiv{
+	width: 70%;
+	height: 300px;
+	border: 2px solid lightblue;
+	border-radius: 20px;
+	margin: 35px auto;
+	text-align: center;
+}
+.hbdiv div{
+	float: left;
+	font-size: 10px;
+	width: 24%;
+	margin-top: 30px;
+}
+.hbdiv button{
+	color: white;
+	width: 270px;
+	height: 45px;
+	background: red;
+	border: none;
+	border-radius: 12px;
+	margin: 50px auto;
+}
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.gg4{
+	width: 70%;
+	height: 700px;
+	margin: 10px auto;
+}
+.gg4 p{
+	position: relative;
+	float: left;
+	width: 48%;
+	height: 350px;
+	margin-left: 21px;
+}
+.gg4 p button{
+	width: 60%;
+	height: 60px;
+	background: white;
+	color: red;
+	border: 1px solid khaki;
+	font-size: 20px;
+	position: absolute;
+	top: 250px;
+	left: 15%;
+}
+/*.............................................................................................................................................*/
+.zh1234{
+	width: 80%;
+	height: 500px;
+	margin: 20px auto;
+}
+.zh1234 h3{
+	font-size: 30px;
+	height: 65px;
+	width: 160px;
+	line-height: 65px;
+	margin: 0 auto;
+}
+.zh1234 .xbox{
+	width: 21%;
+	height: 360px;
+	
+	float: left;
+	margin-left: 40px;
+	border: 1px solid lightgrey;
+	margin-top: 50px;
+}
+.zh1234 .xbox img{
+	width: 100%;
+	height: 40%;
+}
+.zh1234 .xbox .fw{
+	width: 54%;
+	height: 35%;
+	float: left;
+	color: lightgray;
+	font-size: 100px;
+	line-height: 130px;
+	text-align: center;
+	position: relative;
+}
+.zh1234 .xbox .fw span{
+	color: #000000;
+	font-size: 22px;
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background: white;
+	display: inline-block;
+	left: 0;
+	top: 58px;
+}
+.zh1234 .xbox ul{
+	width: 32%;
+	float: left;
+	height: 35%;
+	font-size: 14px;
+	color: darkslategray;
+	margin-left: 20px;
+	margin-top: 22px;
+	margin-bottom: 20px;
+}
+.zh1234 .xbox p{
+	color: red;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.pyt{
+	width: 85%;
+	height: 500px;
+	text-align: center;
+	overflow: hidden;
+	margin: 5px auto;
+	position: relative;
+}
+.pyt h2{
+	font-size: 30px;
+	height: 80px;
+	line-height: 80px;
+}
+.pyt img{
+	width: 130%;
+	height: 70%;
+	margin-top: 35px;
+	position: absolute;
+	left: 0;
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.zx2k{
+	width: 85%;
+	height: 280px;
+	margin: 20px auto;
+}
+.zx2k .k{
+	width: 45%;
+	height: 280px;
+	border: 2px solid gray;
+	border-radius: 15px;
+	float: left;
+	margin-left: 40px;
+	position: relative;
+}
+.zx2k .k svg{
+	width: 35%;
+	height: 15%;
+	margin-left: 210px;
+	margin-top: 28px;
+}
+.zx2k .k .lp{
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	left: 0;
+}
+.zx2k .k .lp p:nth-of-type(1){
+	color: lightslategray;
+	font-size: 15px;
+}
+.zx2k .k .lp p:nth-of-type(2){
+	font-size: 28px;
+}
+.zx2k .k .lp p{
+	text-align: center;
+	margin: 25px auto;
+}
+.zx2k .k .rp p:nth-of-type(1){
+	color: lightslategray;
+	font-size: 15px;
+}
+.zx2k .k .rp p:nth-of-type(2){
+	font-size: 28px;
+}
+.zx2k .k .rp p{
+	text-align: center;
+	margin: 20px auto;
+}
+.zx2k .k .rp{
+	position: absolute;
+	width: 45%;
+	height: 50%;
+	right: 4%;
+}
+.zx2k .k:nth-of-type(1) span{
+	color: red;
+	font-size: 16px;
+	position: absolute;
+	bottom: 28px;
+	left: 35%;
+}
+.zx2k .k ul{
+	width: 43%;
+	height: 40%;
+	text-align: center;
+	margin: 13px auto;
+}
+.zx2k .k ul li:nth-of-type(1){
+	color: lightslategray;
+	margin-top: 23px;
+}
+.zx2k .k ul li:nth-of-type(2){
+	font-size: 28px;
+	margin-top: 20px;
+}
+.zx2k .k ul li{
+	list-style: none;
+}
+.zx2k .k:nth-of-type(2) span{
+	color: red;
+	font-size: 16px;
+	margin-left: 40%;
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.inp{
+	width: 100%;
+	height: 540px;
+	position: relative;
+}
+.inp img{
+	width: 100%;
+	height: 540px;
+}
+.inp h1{
+	font-size: 35px;
+	color: white;
+	position: absolute;
+	top: 35%;
+	left: 10%;
+}
+.inp p{
+	font-size: 16px;
+	color: white;
+	position: absolute;
+	top: 51%;
+	left: 10%;
+}
+.inp .inpbox{
+	width: 26%;
+	height: 87%;
+	background: white;
+	border-radius: 20px;
+	position: absolute;
+	top: 6%;
+	right: 8%;
+}
+.inp .inpbox h4{
+	font-size: 25px;
+	text-align: center;
+	margin: 15px auto;
+}
+.inp .inpbox input{
+	width: 85%;
+	height: 10%;
+	margin-left: 7%;
+	margin-bottom: 20px;
+}
+.inp .inpbox span input{
+	width: 14px;
+	height: 14px;
+}
+.inp .inpbox span{
+	color: lightslategray;
+	font-size: 12px;
+	width: 80%;
+	
+	display: inline-block;
+	margin-left: 10%;
+}
+.inp .inpbox div{
+	width: 70%;
+	height: 55px;
+	line-height: 55px;
+	background: lightslategray;
+	margin: 15px auto;
+	text-align: center;
+	border-radius: 10px;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.rd3t{
+	width: 87%;
+	height: 260px;
+	margin: 35px auto;
+}
+.rd3t p{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+.rd3t div{
+	width: 30%;
+	height: 70%;
+	float: left;
+	margin-left: 35px;
+	overflow: hidden;
+}
+.rd3t div img{
+	width: 100%;
+	height: 100%;
+}
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.btnbox{
+	width: 100%;
+	height: 120px;
+	background: #333333;
+	padding-top: 70px;
+}
+.btnbox p{
+	color: dimgray;
+	font-size: 12px;
+	height: 25px;
+	line-height: 25px;
+	margin-left: 8%;
+}
